@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend files of wik-fx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammed-shamal/Wiki-FX-backend.git"
+  },
+  "author": "Muhammed Shamal PV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammed-shamal/Wiki-FX-backend/issues"
+  },
+  "homepage": "https://github.com/Muhammed-shamal/Wiki-FX-backend#readme"
+}
