@@ -1,7 +1,16 @@
- const express = require('express');
- const app = express.Router();
- const adminRouter = require('./routes/adminRoutes');
- const userRouter = require('./routes/userRoutes');
+const express = require('express');
+const cors = require('cors');
 
- app.use(adminRouter);
- app.use(userRouter);
+const app = express();
+const port = 5000;
+app.use(cors());
+app.use(express.json())
+
+
+const adminRoute = require('./routes/adminRoutes');
+app.use("/admin", adminRoute);
+
+const userRoute = require('./routes/userRoutes');
+app.use("/", userRoute);
+
+app.listen(port,()=>console.log('server started'));
