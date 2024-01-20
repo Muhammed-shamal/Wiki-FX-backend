@@ -1,0 +1,5 @@
+# .gitattributes
+
+# Set the line ending style for specific files or directories
+*.js text eol=crlf
+*.json text eol=crlf
